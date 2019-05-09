@@ -1,9 +1,15 @@
+# Crop method.
+
+# Cropping a region from an image is done using the crop() method.
+
+
+
 from PIL import Image
 
 def main():
     try:
         #Relative Path
-        img = Image.open("112.jpg")
+        img = Image.open("light.jpg")
         width, height = img.size
 
         area = (0, 0, width/2, height/2)
