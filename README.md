@@ -1,1 +1,1 @@
-# Python-Image-Recongnition
+# Python PIL
